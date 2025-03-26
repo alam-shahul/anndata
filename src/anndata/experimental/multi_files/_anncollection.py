@@ -618,7 +618,7 @@ class AnnCollection(_ConcatViewMixin, _IterateViewMixin):
         not the original `.obs` attributes of `adatas`.
         If `None`, nothing is copied to this object's `.obs`, a subset object will directly
         access `.obs` attributes of `adatas` (with proper reindexing and dtype conversions).
-        For `None`the inner join rule is used to select columns of `.obs` of `adatas`.
+        For `None` the inner join rule is used to select columns of `.obs` of `adatas`.
     join_obsm
         If "inner" specified all `.obsm` attributes from `adatas` will be inner joined
         and copied to this object. Subset objects will access `.obsm` of this object,
